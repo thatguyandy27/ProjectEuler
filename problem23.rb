@@ -1,5 +1,8 @@
 require 'set'
 
+#@max = 28124
+@max = 28124
+
 def is_abundant?(number)
   divisors = get_divisors(number)
   if (divisors.inject(:+) > number)
@@ -21,7 +24,8 @@ end
 
 def get_abundant_numbers()
   list = []
-  1.upto(28124) do |i|
+
+  1.upto(@max) do |i|
     if (is_abundant?(i))
       list << i
     end
@@ -54,6 +58,8 @@ def is_sum_of_abundant_numbers?(i)
   return false
 end
 
+#puts AbundantNumbers
+
 #puts "is #{28} abundant #{is_abundant?(28)}"
 #puts "is #{12} abundant #{is_abundant?(12)}"
 
@@ -62,25 +68,42 @@ end
 #puts "is #{25} the sum of 2 abundant numbers? #{is_sum_of_abundant_numbers(25)}"
 set_of_numbers = Set.new
 sum = 0
+
+#1.upto(@max) do |n|
+#  AbundantNumbers.each do |an|
+#    if an > n
+#      sum += n
+#      break
+#    end
+#    AbundantNumbers.each do |an2|
+#      if an2 > n
+#        break
+#      end
+#     
+#    end
+#  end
+#end
+#puts sum
+
 AbundantNumbers.each do |n|
   AbundantNumbers.each do |m|
     new_value = n + m
-    break if new_value >= 28124
+    break if new_value > @max
     
-  #  if !set_of_numbers.include?(new_value) 
-      set_of_numbers << new_value
- #     sum += new_value
-  #  end
+    set_of_numbers << new_value
+    
+    #puts "new value in set #{new_value}"
+      
   end
 
 end
 
-1.upto(28124) do |n|
+1.upto(@max) do |n|
   if !set_of_numbers.include?(n) 
+    puts "n: #{n}"
     sum += n
   end
 end
-
 puts "sum #{sum}"
 
 #set_of_numbers.each do |i|
@@ -91,4 +114,3 @@ puts "sum #{sum}"
 #    sum += n
 #  end
 #end
-puts 
