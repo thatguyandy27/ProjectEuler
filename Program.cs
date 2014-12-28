@@ -10,7 +10,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-
+            /*
             var prob45 = new problem45()
             {
                 StartNumberHex = 143,
@@ -20,6 +20,11 @@ namespace ProjectEuler
 
 
             Console.Write(prob45.GetNextNumber());
+            */
+
+            var prob44 = new Problem44();
+
+            prob44.FindPair();
 
             Console.ReadLine();
         }
