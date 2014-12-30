@@ -22,10 +22,14 @@ namespace ProjectEuler
             Console.Write(prob45.GetNextNumber());
             */
 
-            var prob44 = new Problem44();
+           // var prob44 = new Problem44();
 
-            prob44.FindPair();
+           // prob44.FindPair();
 
+            var prob42 = new Problem42();
+            Console.WriteLine(prob42.CountTriangleNumbers("C:\\Users\\andyd_000\\Documents\\GitHub\\ProjectEuler\\p042_words.txt"));
+
+//            Console.WriteLine((int)'A');
             Console.ReadLine();
         }
     }
