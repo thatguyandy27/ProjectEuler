@@ -26,9 +26,20 @@ namespace ProjectEuler
 
            // prob44.FindPair();
 
-            var prob42 = new Problem42();
-            Console.WriteLine(prob42.CountTriangleNumbers("C:\\Users\\andyd_000\\Documents\\GitHub\\ProjectEuler\\p042_words.txt"));
+            //var prob42 = new Problem42();
+            //Console.WriteLine(prob42.CountTriangleNumbers("C:\\Users\\andyd_000\\Documents\\GitHub\\ProjectEuler\\p042_words.txt"));
 
+            var prob37 = new Problem37();
+
+            var results = prob37.GetTruncatablePrimes();
+
+            long sum = 0;
+            for (int i = 0; i < results.Length; i++)
+            {
+                sum += results[i];
+            }
+
+            Console.WriteLine("SUM is " + sum);
 //            Console.WriteLine((int)'A');
             Console.ReadLine();
         }
