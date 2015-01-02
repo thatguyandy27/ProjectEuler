@@ -10,10 +10,16 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            var prob39 = new Problem39();
-            var result = prob39.FindMaxSolutions(1000);
 
-            Console.WriteLine("final result: " + result);
+            var prob33 = new Problem33();
+            var result = prob33.FindNonTrivialFractions();
+
+
+
+            //var prob39 = new Problem39();
+            //var result = prob39.FindMaxSolutions(1000);
+
+            //Console.WriteLine("final result: " + result);
 
             /*
             var prob45 = new problem45()
