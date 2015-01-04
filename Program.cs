@@ -10,11 +10,20 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            var prob31 = new Problem31();
 
-            var count= prob31.CountPossibleSolutions(200, new int[]{200,100,50,20,10,5,2,1});
+            var prob32 = new Problem32();
 
-            Console.WriteLine(count);
+            var results = prob32.GetPandigitalProducts();
+
+            var sum = results.Sum();
+
+            Console.WriteLine(sum);
+
+            //var prob31 = new Problem31();
+
+            //var count= prob31.CountPossibleSolutions(200, new int[]{200,100,50,20,10,5,2,1});
+
+            //Console.WriteLine(count);
             //var prob33 = new Problem33();
             //var result = prob33.FindNonTrivialFractions();
 
