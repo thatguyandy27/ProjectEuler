@@ -10,11 +10,15 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            var problem41 = new Problem41();
+            //var problem41 = new Problem41();
 
-            var result = problem41.FindLargestPandigitalPrime();
+            //var result = problem41.FindLargestPandigitalPrime();
 
-            Console.WriteLine(result);
+            //Console.WriteLine(result);
+
+            var problem38 = new Problem38();
+            problem38.FindMaxPandigitalNumber();
+
 
             //var prob32 = new Problem32();
 

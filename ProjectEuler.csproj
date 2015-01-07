@@ -45,6 +45,7 @@
     <Compile Include="problem32.cs" />
     <Compile Include="problem33.cs" />
     <Compile Include="problem37.cs" />
+    <Compile Include="problem38.cs" />
     <Compile Include="problem39.cs" />
     <Compile Include="problem41.cs" />
     <Compile Include="problem42.cs" />
