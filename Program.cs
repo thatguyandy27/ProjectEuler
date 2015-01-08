@@ -16,9 +16,11 @@ namespace ProjectEuler
 
             //Console.WriteLine(result);
 
-            var problem38 = new Problem38();
-            problem38.FindMaxPandigitalNumber();
+            //var problem38 = new Problem38();
+            //problem38.FindMaxPandigitalNumber();
 
+            var problem52 = new Problem52();
+            Console.WriteLine(problem52.FindSmallestPermutedMultiple());
 
             //var prob32 = new Problem32();
 
