@@ -8,15 +8,15 @@ namespace Test1
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            DateTime min = new DateTime(1901, 1,1);
-            DateTime max = new DateTime(2000, 12,31);
+        // static void Main(string[] args)
+        // {
+        //     DateTime min = new DateTime(1901, 1,1);
+        //     DateTime max = new DateTime(2000, 12,31);
 
-            int count = FindSundaysOnFirstOfMonth(min, max);
-            Console.Write("The count is {0}",  count);
-            Console.ReadKey();
-        }
+        //     int count = FindSundaysOnFirstOfMonth(min, max);
+        //     Console.Write("The count is {0}",  count);
+        //     Console.ReadKey();
+        // }
 
         private static int FindSundaysOnFirstOfMonth(DateTime min, DateTime max)
         {
