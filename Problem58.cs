@@ -18,7 +18,7 @@ namespace ProjectEuler{
                 
                 primes += GetPrimeCount(grid);
                 cornerCount += 4;
-
+                Console.WriteLine(primes / cornerCount * 100);
              }while(primes / cornerCount * 100 > 10);
 
         
@@ -91,28 +91,43 @@ namespace ProjectEuler{
             }
         }
 
-        public bool IsPrime(int number){
+        public bool IsPrime(int n){
             
-            if (number % 2 == 0){
-                return false;
-            }
-            int i = 3,
-                result = number /i;
+            // if (number % 2 == 0){
+            //     return false;
+            // }
+            // int i = 3,
+            //     result = number /i;
 
-            if (number % i == 0) {
-                return false;
-            }
-            do{
-                i += 2;
-                result = number / i;
+            // if (number % i == 0) {
+            //     return false;
+            // }
+            // do{
+            //     i += 2;
+            //     result = number / i;
                 
-                if (number % i == 0) {
-                    return false;
-                }
+            //     if (number % i == 0) {
+            //         return false;
+            //     }
 
-            } while(i < result);
+            // } while(i < result);
+
+            // return true;
+            if (n <= 1) return false;
+            if (n == 2) return true;
+            if (n % 2 == 0) return false;
+            if (n < 9) return true;
+            if (n % 3 == 0) return false;
+            
+            long counter = 5;            
+            while ((counter * counter) <= n) {
+                if (n % counter == 0) return false;
+                if (n % (counter + 2) == 0) return false;
+                counter += 6;
+            }
 
             return true;
+
         }
     }
 }

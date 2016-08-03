@@ -31,8 +31,12 @@ namespace ProjectEuler
 
             // Console.WriteLine(problem57.GetFractionsWithMoreDigitsInNumerator2());
 
-            var problem58 = new Problem58();
-            Console.WriteLine("Answer is {0}", problem58.FindLength());
+            // var problem58 = new Problem58();
+            // Console.WriteLine("Answer is {0}", problem58.FindLength());
+
+            var problem59 = new Problem59();
+            // problem59.GenerateFiles();
+            Console.WriteLine(problem59.GetASCIISum(new int[]{'g','o', 'd'}));
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
