@@ -18,15 +18,22 @@ namespace ProjectEuler
 
             //var problem38 = new Problem38();
             //problem38.FindMaxPandigitalNumber();
-            var problem55 = new Problem55();
-            var result = problem55.FindLychrelNumbers(10000, 50);
-            foreach (var ans in result)
-            {
-                Console.WriteLine(ans);
-            }
+            // var problem55 = new Problem55();
+            // var result = problem55.FindLychrelNumbers(10000, 50);
+            // foreach (var ans in result)
+            // {
+            //     Console.WriteLine(ans);
+            // }
             
-            Console.WriteLine("Here is the result: {0}", result.Count);
+            // Console.WriteLine("Here is the result: {0}", result.Count);
             
+            // var problem57 = new Problem57();
+
+            // Console.WriteLine(problem57.GetFractionsWithMoreDigitsInNumerator2());
+
+            var problem58 = new Problem58();
+            Console.WriteLine("Answer is {0}", problem58.FindLength());
+
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
 
