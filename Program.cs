@@ -38,9 +38,12 @@ namespace ProjectEuler
             // problem59.GenerateFiles();
             // Console.WriteLine(problem59.GetASCIISum(new int[]{'g','o', 'd'}));
 
-            var problem63 = new Problem63();
+            // var problem63 = new Problem63();
 
-            Console.WriteLine(problem63.GetTotal());
+            // Console.WriteLine(problem63.GetTotal());
+
+            var problem51 = new Problem51();
+            problem51.BruteForce();
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
