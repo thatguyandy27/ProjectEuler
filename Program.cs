@@ -42,8 +42,11 @@ namespace ProjectEuler
 
             // Console.WriteLine(problem63.GetTotal());
 
-            var problem51 = new Problem51();
-            problem51.BruteForce();
+            // var problem51 = new Problem51();
+            // problem51.BruteForce();
+
+            var problem54 = new Problem54();
+            Console.WriteLine(problem54.GetPlayerOneWins());
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
