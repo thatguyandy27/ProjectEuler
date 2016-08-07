@@ -45,8 +45,8 @@ namespace ProjectEuler
             // var problem51 = new Problem51();
             // problem51.BruteForce();
 
-            var problem69 = new Problem69();
-            Console.WriteLine("Solution: {0}", problem69.RealFindMaxValue());
+            var problem92 = new Problem92();
+            Console.WriteLine("Solution: {0}", problem92.GetCount());
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
