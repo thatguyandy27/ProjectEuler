@@ -48,9 +48,12 @@ namespace ProjectEuler
             // var problem92 = new Problem92();
             // Console.WriteLine("Solution: {0}", problem92.GetCount());
 
-            var problem97 = new Problem97();
+            // var problem97 = new Problem97();
 
-            problem97.FindPrime();
+            // problem97.FindPrime();
+
+            var p206 = new Problem206();
+            Console.WriteLine(p206.FindConcealedSquare());
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
