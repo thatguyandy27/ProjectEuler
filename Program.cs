@@ -55,8 +55,11 @@ namespace ProjectEuler
             // var p206 = new Problem206();
             // Console.WriteLine(p206.FindConcealedSquare());
 
-            var p79 = new Problem79();
-            Console.WriteLine(p79.GetPasscode());
+            // var p79 = new Problem79();
+            // Console.WriteLine(p79.GetPasscode());
+
+            var p71 = new Problem71();
+            Console.WriteLine(p71.FindNumerator());
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
