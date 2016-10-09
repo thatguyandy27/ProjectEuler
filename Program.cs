@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Playground;
 
 namespace ProjectEuler
 {
@@ -61,9 +62,9 @@ namespace ProjectEuler
             // var p71 = new Problem71();
             // Console.WriteLine(p71.FindNumerator());
 
-            var p76 = new Problem76();
+            // var p76 = new Problem76();
 
-            Console.WriteLine(p76.FindSolution());
+            // Console.WriteLine(p76.FindSolution());
 
             // var problem52 = new Problem52();
             // Console.WriteLine(problem52.FindSmallestPermutedMultiple());
@@ -120,6 +121,12 @@ namespace ProjectEuler
             //    sum += results[i];
             //}
 
+            // Sandbox.PrintPermutations("ABCD".ToCharArray(), 0);
+            CoinCombos combos = new CoinCombos();
+            for(int i =10; i <= 10; i++){
+                 Console.WriteLine("The # of combos for {0} is {1}", i, combos.FindCombinations(new int[]{25,10,5,1}, i));
+            }
+            // Console.WriteLine("The # of combos for {0} is {1}", 9, combos.FindCombinations(new int[]{25,10,5,1}, 9));
             //Console.WriteLine("SUM is " + sum);
 //            Console.WriteLine((int)'A');
             Console.ReadLine();
