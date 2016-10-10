@@ -10,6 +10,7 @@
 		7B17416A1DA827EF004A38C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741691DA827EF004A38C3 /* main.cpp */; };
 		7B1741721DA8280E004A38C3 /* Problem81.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741701DA8280E004A38C3 /* Problem81.cpp */; };
 		7B1741771DAABC8E004A38C3 /* Problem99.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741751DAABC8E004A38C3 /* Problem99.cpp */; };
+		7BE5A4AA1DAC428100C1B642 /* Problem62.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE5A4A81DAC428100C1B642 /* Problem62.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		7B1741751DAABC8E004A38C3 /* Problem99.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem99.cpp; sourceTree = "<group>"; };
 		7B1741761DAABC8E004A38C3 /* Problem99.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem99.h; sourceTree = "<group>"; };
 		7B1741781DAAC053004A38C3 /* p099_base_exp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p099_base_exp.txt; sourceTree = "<group>"; };
+		7BE5A4A81DAC428100C1B642 /* Problem62.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem62.cpp; sourceTree = "<group>"; };
+		7BE5A4A91DAC428100C1B642 /* Problem62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem62.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				7B1741751DAABC8E004A38C3 /* Problem99.cpp */,
 				7B1741761DAABC8E004A38C3 /* Problem99.h */,
 				7B1741781DAAC053004A38C3 /* p099_base_exp.txt */,
+				7BE5A4A81DAC428100C1B642 /* Problem62.cpp */,
+				7BE5A4A91DAC428100C1B642 /* Problem62.h */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				7B1741721DA8280E004A38C3 /* Problem81.cpp in Sources */,
 				7B1741771DAABC8E004A38C3 /* Problem99.cpp in Sources */,
 				7B17416A1DA827EF004A38C3 /* main.cpp in Sources */,
+				7BE5A4AA1DAC428100C1B642 /* Problem62.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +261,7 @@
 				7B17416F1DA827EF004A38C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
