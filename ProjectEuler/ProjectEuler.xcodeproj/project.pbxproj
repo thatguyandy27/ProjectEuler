@@ -11,6 +11,8 @@
 		7B1741721DA8280E004A38C3 /* Problem81.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741701DA8280E004A38C3 /* Problem81.cpp */; };
 		7B1741771DAABC8E004A38C3 /* Problem99.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741751DAABC8E004A38C3 /* Problem99.cpp */; };
 		7BE5A4AA1DAC428100C1B642 /* Problem62.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE5A4A81DAC428100C1B642 /* Problem62.cpp */; };
+		7BE5A4AD1DAD135300C1B642 /* Problem65.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE5A4AB1DAD135300C1B642 /* Problem65.cpp */; };
+		7BE5A4B01DAD17E600C1B642 /* BigInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BE5A4AE1DAD17E600C1B642 /* BigInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,10 @@
 		7B1741781DAAC053004A38C3 /* p099_base_exp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = p099_base_exp.txt; sourceTree = "<group>"; };
 		7BE5A4A81DAC428100C1B642 /* Problem62.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem62.cpp; sourceTree = "<group>"; };
 		7BE5A4A91DAC428100C1B642 /* Problem62.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem62.h; sourceTree = "<group>"; };
+		7BE5A4AB1DAD135300C1B642 /* Problem65.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem65.cpp; sourceTree = "<group>"; };
+		7BE5A4AC1DAD135300C1B642 /* Problem65.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem65.h; sourceTree = "<group>"; };
+		7BE5A4AE1DAD17E600C1B642 /* BigInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigInteger.cpp; sourceTree = "<group>"; };
+		7BE5A4AF1DAD17E600C1B642 /* BigInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigInteger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,8 @@
 		7B1741681DA827EF004A38C3 /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
+				7BE5A4AE1DAD17E600C1B642 /* BigInteger.cpp */,
+				7BE5A4AF1DAD17E600C1B642 /* BigInteger.h */,
 				7B1741691DA827EF004A38C3 /* main.cpp */,
 				7B1741701DA8280E004A38C3 /* Problem81.cpp */,
 				7B1741711DA8280E004A38C3 /* Problem81.h */,
@@ -77,6 +85,8 @@
 				7B1741781DAAC053004A38C3 /* p099_base_exp.txt */,
 				7BE5A4A81DAC428100C1B642 /* Problem62.cpp */,
 				7BE5A4A91DAC428100C1B642 /* Problem62.h */,
+				7BE5A4AB1DAD135300C1B642 /* Problem65.cpp */,
+				7BE5A4AC1DAD135300C1B642 /* Problem65.h */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B1741721DA8280E004A38C3 /* Problem81.cpp in Sources */,
+				7BE5A4AD1DAD135300C1B642 /* Problem65.cpp in Sources */,
 				7B1741771DAABC8E004A38C3 /* Problem99.cpp in Sources */,
+				7BE5A4B01DAD17E600C1B642 /* BigInteger.cpp in Sources */,
 				7B17416A1DA827EF004A38C3 /* main.cpp in Sources */,
 				7BE5A4AA1DAC428100C1B642 /* Problem62.cpp in Sources */,
 			);
