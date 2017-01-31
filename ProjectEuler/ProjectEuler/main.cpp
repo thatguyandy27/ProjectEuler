@@ -12,10 +12,11 @@
 #include "Problem62.h"
 #include "Problem65.h"
 #include "Problem74.h"
+#include "Problem96.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    Problem74 problem;
+    Problem96 problem;
     
     problem.generate_answer();
     return 0;
