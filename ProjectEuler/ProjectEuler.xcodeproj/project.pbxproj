@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C068BDC1E411D6300CC2D34 /* Prime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C068BDA1E411D6300CC2D34 /* Prime.cpp */; };
+		1C068BDF1E41224300CC2D34 /* Problem60.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C068BDD1E41224300CC2D34 /* Problem60.cpp */; };
 		1C76E1EA1E3D7CA40047E71A /* Problem96.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C76E1E81E3D7CA40047E71A /* Problem96.cpp */; };
 		7B17416A1DA827EF004A38C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741691DA827EF004A38C3 /* main.cpp */; };
 		7B1741721DA8280E004A38C3 /* Problem81.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B1741701DA8280E004A38C3 /* Problem81.cpp */; };
@@ -30,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C068BDA1E411D6300CC2D34 /* Prime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prime.cpp; sourceTree = "<group>"; };
+		1C068BDB1E411D6300CC2D34 /* Prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prime.h; sourceTree = "<group>"; };
+		1C068BDD1E41224300CC2D34 /* Problem60.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem60.cpp; sourceTree = "<group>"; };
+		1C068BDE1E41224300CC2D34 /* Problem60.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem60.h; sourceTree = "<group>"; };
 		1C76E1E71E3D7C800047E71A /* soduku.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = soduku.txt; sourceTree = "<group>"; };
 		1C76E1E81E3D7CA40047E71A /* Problem96.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Problem96.cpp; sourceTree = "<group>"; };
 		1C76E1EB1E3E54C80047E71A /* Problem96.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem96.h; sourceTree = "<group>"; };
@@ -99,6 +105,10 @@
 				1C76E1E71E3D7C800047E71A /* soduku.txt */,
 				1C76E1EB1E3E54C80047E71A /* Problem96.h */,
 				1C76E1E81E3D7CA40047E71A /* Problem96.cpp */,
+				1C068BDA1E411D6300CC2D34 /* Prime.cpp */,
+				1C068BDB1E411D6300CC2D34 /* Prime.h */,
+				1C068BDD1E41224300CC2D34 /* Problem60.cpp */,
+				1C068BDE1E41224300CC2D34 /* Problem60.h */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -160,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B1741721DA8280E004A38C3 /* Problem81.cpp in Sources */,
+				1C068BDF1E41224300CC2D34 /* Problem60.cpp in Sources */,
 				7BE5A4B31DAE66E800C1B642 /* Problem74.cpp in Sources */,
 				7BE5A4AD1DAD135300C1B642 /* Problem65.cpp in Sources */,
+				1C068BDC1E411D6300CC2D34 /* Prime.cpp in Sources */,
 				7B1741771DAABC8E004A38C3 /* Problem99.cpp in Sources */,
 				7BE5A4B01DAD17E600C1B642 /* BigInteger.cpp in Sources */,
 				7B17416A1DA827EF004A38C3 /* main.cpp in Sources */,
